@@ -1,0 +1,46 @@
+<!-- In cart.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Cart</title>
+    <!-- Include your styles and scripts -->
+</head>
+<body>
+    <header>
+        <h1>Your Shopping Cart</h1>
+    </header>
+
+    <div class="cart-items" id="cart-items"></div>
+
+    <div class="cart-summary">
+        <h2>Cart Summary</h2>
+        <p>Your Product Total: $<span id="product-total">0.00</span></p>
+    </div>
+
+    <button onclick="clearCart()" class="clear-button">Clear Cart</button>
+    <button onclick="goBack()" class="back-button">Go Back</button>
+
+    <script>
+        // Retrieve the product total from local storage
+        let productTotal = localStorage.getItem('total');
+        
+        // Display the product total
+        document.getElementById('product-total').innerText = productTotal || '0.00';
+
+        function clearCart() {
+            // Clear the cart items
+            document.getElementById('cart-items').innerHTML = '';
+
+            // Set the product total to zero
+            document.getElementById('product-total').innerText = '0.00';
+
+            // Clear the local storage
+            localStorage.removeItem('total');
+        }
+    </script>
+
+    <script src="cart.js"></script>
+    <script src="cart2.js"></script>
+</body>
+</html>
