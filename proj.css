@@ -1,0 +1,248 @@
+
+    .section2{
+    margin-left: 5%;
+    padding:10px ;
+ 
+}
+body{
+  background-image: url("images/background.jpg") ;
+
+}
+.search-box {
+   
+    text-align:right;
+  
+}
+h2{
+  color:white
+}
+h1{
+text-align: center;
+font-size: 30px;
+color: white;
+margin-left: 60px;
+
+text-shadow: 4px 4px 4px purple; 
+font-weight: bold; 
+text-transform: uppercase; 
+
+}
+.image-container {
+    display:flex ;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+h3{
+  display: flex;
+    color:white ;
+}
+.image {
+  max-width: 420px; 
+  height: auto; 
+  margin: 0; 
+
+}
+
+ .addtocart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 1;
+        text-decoration: none;
+        color: purple;
+        font-size: 18px;
+        border-radius: 5px;
+        width: 200px;
+        height: 40px;
+        border: 1px solid purple;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        background-color: #ffffff;
+        cursor: pointer;
+      }
+      
+      .addtocart:before {
+        display: block;
+        font-size: 11px;
+        width: 60px;
+        text-align: center;
+        background-color: purple;
+        color: #fff;
+        padding: 7px 0 3px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-34%, -4px) rotate(-35deg);
+        transition: .3s;
+      }
+      
+      .addtocart:after {
+        content: "";
+        display: block;
+      }
+      
+      .addtocart:hover {
+        color: #fff;
+        background-color: purple;
+      }
+      
+      .addtocart:hover::before {
+        background-color: #fff;
+        
+    }
+
+  
+.cart-container {
+    position:absolute;
+    top: 32px;
+    right: 120px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    padding:15px 35px;
+    height: 10px;
+  }
+  
+  .fa-shopping-cart {
+    font-size: 40px;
+    margin-right: 5px;
+  }
+  
+  .cart-count {
+  
+    color: rgb(60, 0, 128);
+  
+   width:min-content;
+    font-size: 14px;
+  }
+  .cart-container img {
+    width: 30px; 
+    height: auto; 
+  }
+    .cart-container p {
+      color: purple ;
+    text-size-adjust:5px ;
+}
+strong{
+    color: white;
+}
+.description
+{
+text-align: center;
+}
+.choices,
+.choices2,
+.choices3,
+.about
+{
+  color: white;
+  margin-left: 10%;
+  position: relative;
+  display: inline-flex; 
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.choices:hover .dropdown,
+.choices2:hover .dropdown,
+.choices3:hover .dropdown,
+.about:hover .dropdown
+ {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid purple;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: purple;
+}
+table, td {
+  border: 1px solid white;
+  color: white;
+  }
+  table {
+      margin-left: 40%;
+  border-collapse:collapse;
+ margin-top: 5px;
+  }
+  th {
+  height: 70px;
+  } 
+  .showTable{
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: PURPLE;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid purple;
+    position: relative;
+    transition: 0.3s;
+    overflow: hidden;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .showTable:before {
+    display: block;
+    font-size: 11px;
+    width: 60px;
+    text-align: center;
+    background-color: PURPLE;
+    color: #fff;
+    padding: 7px 0 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .3s;
+  }
+  
+  .showTable:after {
+    content: "";
+    display: block;
+  }
+  
+  .showTable:hover {
+    color: #fff;
+    background-color: purple;
+  }
+  
+  .showTable:hover::before {
+    background-color: #fff;
+    
+}
+img{
+  position: relative;
+  cursor: pointer;
+}
+.image-container {
+  position: relative;
+}
+ h4
+ {
+  text-decoration: none;
+  color:white;
+ }

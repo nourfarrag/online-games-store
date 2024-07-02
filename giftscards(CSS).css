@@ -1,0 +1,136 @@
+.Cards {
+    text-align: left;
+    background-color: purple; 
+    padding: 8px;
+   
+}
+.card2 {
+    text-align: center;
+    background-color: purple; 
+    padding: 20px;
+}
+
+.card3 {
+    text-align: center;
+    background-color: purple; 
+    padding: 20px;
+}
+
+
+.card h1 {
+    color:black;
+}
+
+
+
+.infocard{
+    font-size: 40px;
+    color: white;
+    margin-left: 120px;
+   
+    text-shadow: 4px 4px 4px purple; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    flex-direction: left;
+
+}
+.infocard2{
+    font-size: 40px;
+    color: white;
+    margin-left: 120px;
+    text-shadow: 4px 4px 4px purple; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    flex-direction: left;
+
+}
+.infocard3{
+    font-size: 40px;
+    color: white;
+    margin-left: 120px;
+    text-shadow: 4px 4px 4px purple; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    flex-direction: left;
+
+}
+
+
+#card1 {
+    margin-top: 10px;
+}
+
+#card2 {
+    margin-top: 10px;
+}
+
+
+
+#card1 img {
+    max-width: 420px; 
+    height: auto; 
+    margin-left: 105px;
+  
+   
+}
+#card2 img {
+    max-width: 290px; 
+    height: auto; 
+    margin-left: 50px;
+    
+}
+#card3 img {
+    max-width: 350px; 
+    height: auto; 
+    margin-left: 105px;
+    
+}
+.addtocart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: purple;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #164863;
+    position: relative;
+    transition: 0.3s;
+    overflow: hidden;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin-left: 100px;
+  }
+  
+  .addtocart:before {
+    display: block;
+    font-size: 11px;
+    width: 60px;
+    text-align: center;
+    background-color: purple;
+    color: #fff;
+    padding: 7px 0 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-34%, -4px) rotate(-35deg);
+    transition: .3s;
+  }
+  
+  .addtocart:after {
+    content: "";
+    display: block;
+  }
+  
+  .addtocart:hover {
+    color: #fff;
+    background-color: purple;
+  }
+  
+  .addtocart:hover::before {
+    background-color: #fff;
+    
+}

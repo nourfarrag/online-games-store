@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <title>GIFT-CARDS</title>
+        <!--to link with css-->
+        <meta name="Gamer's Galaxy" content="Gamer's Galaxy official website" />
+        <link rel="stylesheet" type="text/css" href="proj.css">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="script.js" type="text/javascript"></script>
+       
+        <link rel="stylesheet" type="text/css" href="giftscards(CSS).css" title="style" />
+
+        <link rel="stylesheet" type="text/css" href="projectstyles.css">
+    </head>
+    <body>
+        <div class="container">
+            <ul>
+              <li> 
+                <a href="#"> Menu </a>
+              <ul class="dropdown"> 
+                <li> <a id="page" href="consoles.html"> Consoles</a></li>
+          <li> <a id="page" href="giftcards.html"> Gift Cards</a></li>
+          <li> <a id="page" href="ps5games.html"> Games</a></li>
+              </ul>
+            </li>
+              <li> <a id="page" href="galaxy.html"> Home </a></li>
+              <li> <a id="page" href="About.html"> About US </a></li>
+            </ul>
+        
+          <div class="logo"> 
+             <img src="images/logomodified.png" width="120px" height="95px">
+          </div> 
+            <div class="boxNav">
+            <form class="searchbar">
+              <input type="text" placeholder="Search...">
+            
+            </form>
+          </div>
+          <a class="login" href="index.php">
+            <b><u><p id="page">Login/Signup</p></u></b>
+            <img src="images/loginmodified.png" width="30px" height="30px"> 
+          </a>
+            <a href="cart.html" class="cart-container">
+              <span class="cart-text">Cart</span>
+              <img src="images/cartmodified.png" width="35px" height="35px" id="cart">
+            </a>
+          </div>
+        <!---->
+        <div class="cart-container">
+          <!--<img src="photos\cart.png" width="20" height="5">
+          <p>cart</p>-->
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-count" id="cartCount">0</span>
+        </div>
+
+        </div>
+      
+     
+        <div class="Cards">
+          <h1>GIFT-CARDS</h1>
+   </div>
+    
+  <div id="card1">
+     <p class="infocard">PSN(UK)
+     </div>
+     <div id="card1">
+         <a id="page" href="proj.html">
+             <img src="images/psnuk-removebg-preview.png" alt="card Image">
+         </a>
+     </div>
+     <br>
+     <button class="addtocart" onclick="addToCart(); totalcart();">ADD TO CART</button>
+     <script>
+      function totalcart() {
+        // Retrieve the current total from local storage
+        let currentTotal = parseInt(localStorage.getItem('total')) || 0;
+
+        // Add the product price to the current total
+        let productPrice = 300;
+        currentTotal += productPrice;
+
+        // Update the total in local storage
+        localStorage.setItem('total', currentTotal);
+      }
+    </script>
+     <br>
+     <br>
+     <br>
+     <div id="card2">
+         <p class="infocard2">PSN(US)</p>
+         </div>
+         <div id="card2">
+             <a id="page" href="proj.html">
+                 <img src="images\psnusa-removebg-preview.png" alt="card Image" >
+             </a>
+         </div>
+         <br>
+         <button class="addtocart" onclick="addToCart(); totalcart();">ADD TO CART</button>
+         <script>
+          function totalcart() {
+            // Retrieve the current total from local storage
+            let currentTotal = parseInt(localStorage.getItem('total')) || 0;
+
+            // Add the product price to the current total
+            let productPrice = 300;
+            currentTotal += productPrice;
+
+            // Update the total in local storage
+            localStorage.setItem('total', currentTotal);
+          }
+        </script>
+     </div>
+    
+
+     <div id="card3">
+      <p class="infocard3">PSN(UAE)</p>
+      </div>
+      <div id="card3">
+          <a id="page" href="proj.html">
+              <img src="images\psnuae-removebg-preview.png" alt="card Image" >
+          </a>
+      </div>
+      <br>
+      <button class="addtocart" onclick="addToCart(); totalcart();">ADD TO CART</button>
+      <script>
+        function totalcart() {
+          // Retrieve the current total from local storage
+          let currentTotal = parseInt(localStorage.getItem('total')) || 0;
+
+          // Add the product price to the current total
+          let productPrice = 300;
+          currentTotal += productPrice;
+
+          // Update the total in local storage
+          localStorage.setItem('total', currentTotal);
+        }
+      </script>
+  </div>
+ 
+  
+  
+
+
+
+
+        
+    </body>
+       

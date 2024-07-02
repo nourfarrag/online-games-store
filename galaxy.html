@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="projectstyles.css" />
+  <script src="nscript.js"></script>
+</head>
+<body>
+  <div class="container">
+    <ul>
+      <li> 
+        <a href="#"> Menu </a>
+      <ul class="dropdown"> 
+        <li> <a id="page" href="consoles.html"> Consoles</a></li>
+        <li> <a id="page" href="giftcards.html"> Gift Cards</a></li>
+        <li> <a id="page" href="ps5games.html"> Games</a></li>
+      </ul>
+    </li>
+      <li> <a href="#"> Home </a></li>
+      <li> <a id="page" href="About.html"> About Us  </a></li>
+    </ul>
+
+  <div class="logo"> 
+     <img src="images/logomodified.png" width="120px" height="95px">
+  </div> 
+    <div class="boxNav">
+    <form class="searchbar">
+      <input type="text" placeholder="Search...">
+      
+    </form>
+  </div>
+  <a class="login" href="index.php">
+    <b><u><p id="page">Login/Signup</p></u></b>
+    <img src="images/loginmodified.png" width="30px" height="30px"> 
+  </a>
+  <a href="cart.html" class="cart-container">
+    <span class="cart-text">Cart</span>
+    <img src="images/cartmodified.png" width="35px" height="35px" id="cart">
+  </a>
+  
+  </div>
+<br>
+<!-- slideshow start-->
+<div class="slideshow">
+   <!--slide images start-->
+<div class="slide">
+  <a href="rdr2.html">
+    <img id="img1" src="images/eafc24cover.jpg" width="1550" height="450px">
+  </a>
+</div>
+<div class="slide">
+  <a href="rdr2.html">
+    <img id="img2" src="images/marvels_spider-man_ps5.jpg" width="1550" height="450px"> 
+  </a>
+</div>
+<div class="slide">
+  <a href="consoles.html">
+    <img id="img3" src="images/ps5.jpeg" width="1550" height="450px"> 
+  </a>
+</div>
+<div class="slide">
+  <a href="rdr2.html">
+    <img id="img4" src="images/offer.jpg" width="1550" height="450px"> 
+  </a>
+</div>
+<!--slide images end-->
+
+
+  <!--arrows for the user to go left or right-->
+  <p class="prev" onclick="plusslides(-1)"> &lt;</p>
+<p class="next" onclick="plusslides(1)">&gt;</p>
+<!-- end of arrows-->
+</div> 
+  <!-- navigation dots-->
+    <div style="text-align: center;">
+     <span class="dot"  onclick="showslides(0)"></span>
+     <span class="dot"  onclick="showslides(1)"></span>
+     <span class="dot"  onclick="showslides(2)"></span>
+     <span class="dot"  onclick="showslides(3)"></span> 
+    <!-- navigation dots end-->
+</div> 
+<!-- slide show end-->
+
+</body>
+
+</html>
